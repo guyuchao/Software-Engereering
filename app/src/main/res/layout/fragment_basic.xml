@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card-view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeee9"
+    android:fitsSystemWindows="true"
+    android:animateLayoutChanges="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginTop="10dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/nongye2" />
+
+                <!-- 上圆角-->
+
+            <SeekBar
+                android:id="@+id/playSeekBar"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3px"
+                android:layout_marginTop="25px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dip"
+                    android:layout_marginLeft="40dip"
+                    android:background="@drawable/text_bg"
+                    android:gravity="center"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="2dip"
+                    android:text="播放"
+                    android:clickable="true"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dip"
+                    android:layout_marginLeft="40dip"
+                    android:background="@drawable/text_bg"
+                    android:gravity="center"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="2dip"
+                    android:clickable="true"
+                    android:text="暂停"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dip"
+                    android:layout_marginLeft="40dip"
+                    android:background="@drawable/text_bg"
+                    android:gravity="center"
+                    android:paddingBottom="2dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="2dip"
+                    android:clickable="true"
+                    android:text="上传"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <TextView style="@style/usertext"
+                android:text="简介："
+                android:layout_marginTop="30dip"
+                />
+
+            <TextView style="@style/usertext"
+                android:id="@+id/basic_info"
+                android:layout_marginTop="10dip"
+                />
+
+
+
+
+
+                <!-- 分割线 -->
+            <View style="@style/bg_line"
+                android:layout_marginTop="20dip"
+
+                />
+                <!-- 无圆角-->
+
+            <TextView style="@style/usertext" android:text="开放时间:"
+                android:layout_marginTop="20dip"
+                />
+            <TextView style="@style/usertext"
+                android:layout_marginTop="10dip"
+                android:id="@+id/open_time"
+                />
+
+            <View style="@style/bg_line"
+                android:layout_marginTop="20dip"
+                />
+                <!-- 下圆角-->
+
+            <TextView style="@style/usertext" android:text="教育活动:"
+                android:layout_marginTop="20dip"
+                />
+            <TextView style="@style/usertext"
+                android:layout_marginTop="10dip"
+                android:id="@+id/education"
+                />
+
+            <View style="@style/bg_line"
+                android:layout_marginTop="20dip"
+                />
+
+
+            <TextView style="@style/usertext" android:text="学术活动:"
+                android:layout_marginTop="20dip"
+                />
+            <TextView style="@style/usertext"
+                android:layout_marginTop="10dip"
+                android:id="@+id/academic"
+                />
+
+            <View style="@style/bg_line"
+                android:layout_marginTop="20dip"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

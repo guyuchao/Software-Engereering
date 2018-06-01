@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card-view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeee9"
+    android:fitsSystemWindows="true"
+    android:animateLayoutChanges="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:id="@+id/collection"
+            android:orientation="vertical">
+
+            <!--
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginTop="10dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/a01" />
+
+
+            <TextView style="@style/usertext"
+                android:text="展览名称："
+                android:layout_marginTop="30dip"
+                />
+
+            <TextView style="@style/usertext"
+                android:id="@+id/exhibit_title"
+                android:layout_marginTop="10dip"
+                />
+
+            <View style="@style/bg_line"
+                android:layout_marginTop="20dip"
+
+                />-->
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
